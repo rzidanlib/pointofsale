@@ -17,7 +17,7 @@ export default function Navbar() {
             <li>
               <Link
                 href={route("home")}
-                className="text-white p-0 hover:text-blue-700"
+                className="text-white p-0 hover:text-slate-200"
                 aria-current="page"
               >
                 Homepage
@@ -26,7 +26,7 @@ export default function Navbar() {
             <li>
               <Link
                 href={route("products")}
-                className="text-white p-0 hover:text-blue-700"
+                className="text-white p-0 hover:text-slate-200"
               >
                 Products
               </Link>
