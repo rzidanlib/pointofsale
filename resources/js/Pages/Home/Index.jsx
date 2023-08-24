@@ -121,8 +121,8 @@ export default function index(props) {
                       src={`/assets/${product.gambar}`}
                       alt="product image"
                     />
-                    <div className="p-2 flex flex-shrink">
-                      <h5 className="text-lg font-semibold tracking-tight text-gray-900 overflow-ellipsis">
+                    <div className="p-2">
+                      <h5 className="text-lg font-semibold tracking-tight text-gray-900 overflow-hidden truncate">
                         {product.menu}
                       </h5>
                     </div>
